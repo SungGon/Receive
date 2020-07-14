@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './SearchBar.css';
 
 class SearchBar extends React.Component{
     render(){
@@ -9,7 +10,7 @@ class SearchBar extends React.Component{
                 <button onClick={"search"}>검색</button>
             </div>
         )
-    }
-}
+    };
+};
 
 export default SearchBar;

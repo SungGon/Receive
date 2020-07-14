@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'infinite-react-carousel';
+import './Advertisement.css'
 
 
 class Slide extends React.Component {

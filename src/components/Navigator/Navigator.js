@@ -1,5 +1,6 @@
 import React from 'react';
 import {Route, Link} from 'react-router-dom';
+import "./Navigator.css";
 // import Skincare from './Skincare';
 // import Makeup from './Makeup';
 

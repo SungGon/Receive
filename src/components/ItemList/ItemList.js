@@ -9,3 +9,5 @@ class ItemList extends React.Component{
         )
     }
 }
+
+export default ItemList;

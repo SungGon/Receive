@@ -1,0 +1,12 @@
+.mainlogo {
+    text-align: center;
+    color: rgb(13, 177, 231);
+  }
+
+/* SearchBar */
+.searchBar{
+    text-align: center;
+  }
+  .searchBar input{
+    width: 300px;
+  }

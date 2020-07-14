@@ -1,12 +1,13 @@
 import React from 'react';
 
-import SearchBar from './SearchBar';
-import Navigator from './Navigator';
-import AdSlide from './adSlide';
-import AdFade from './adFade';
+import SearchBar from 'components/SearchBar/SearchBar';
+import Navigator from 'components/Navigator/Navigator';
+import AdSlide from 'components/Advertisement/adSlide';
+import AdFade from 'components/Advertisement/adFade';
+import ItemList from 'components/ItemList/ItemList';
 
 
-class Home extends React.Component{
+class Main extends React.Component{
     render(){
         return(
             <div>
@@ -30,6 +31,9 @@ class Home extends React.Component{
 				</div>
 
 				{/* hot100 */}
+				<div>
+					<h3>HOT100</h3>
+				</div>
 					
 
 				{/* <Info /> */}
@@ -38,4 +42,4 @@ class Home extends React.Component{
     };
 }
 
-export default Home;
+export default Main;
