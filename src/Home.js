@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 import SearchBar from './SearchBar';
 import Navigator from './Navigator';
-import AD_Slide from './AD_Slide';
-import AD_Fade from './AD_Fade';
+import AdSlide from './adSlide';
+import AdFade from './adFade';
 
 
 class Home extends React.Component{
@@ -22,11 +22,11 @@ class Home extends React.Component{
 				{/* 이미지 배너 */}
 				<div>
 					<h3>후보 1</h3>
-					<AD_Slide />
+					<AdSlide />
 				</div>
 				<div>
                     <h3>후보 2</h3>
-					<AD_Fade />
+					<AdFade />
 				</div>
 
 				{/* hot100 */}
