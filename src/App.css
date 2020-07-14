@@ -42,45 +42,68 @@
     transform: rotate(360deg);
   }
 }
+
 /* SearchBar */
 .searchBar{
   text-align: center;
 }
 .searchBar input{
   width: 300px;
-
 }
-
 
 /* Navigator */
 nav {
   margin:20px;
-  text-align: center;
+  
 }
 
 .nav_container{
+  text-align: center;
   display: flex;
   flex-direction: row;
-  width: 100%;
-  margin: 50px;
+  width: 50%;
+  /* margin: 50px; */
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   background-color: white;
   list-style-type: none;
 }
 
+  
 .nav_item{
-  padding: 15px;
+  padding: 10px;
   cursor: pointer;
 }
 
 .nav_item a{
-  text-align: center;
   text-decoration: none;
-  color: #61dafb;
+  color: black;
 }
 
-
-/* ImageBanner */
+/* AD_Slide */
 .Advertisement{
   text-align: center;
 }
+
+/* AD_Fade */
+.each-fade {
+  display: flex;
+  
+  text-align: center;
+}
+
+.each-fade  img {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+} */

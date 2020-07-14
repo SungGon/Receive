@@ -1,21 +1,43 @@
 import React from 'react'
+import {Route, Link} from 'react-router-dom'
 
 class Navigator extends React.Component{
     render(){
         return(
+			<div>
             <nav>
                 <ul className="nav_container">
-					<li className="nav_item"> <a href="">스킨케어</a> </li>
-					<li className="nav_item"> <a href="">메이크업</a> </li>						
-                    <li className="nav_item"> <a href="">향수</a> </li>
-					<li className="nav_item"> <a href="">가방/지갑</a> </li>
-					<li className="nav_item"> <a href="">시계/주얼리</a> </li>
-					<li className="nav_item"> <a href="">패션/잡화</a> </li>
-					<li className="nav_item"> <a href="">스포츠/레저</a> </li>							
-                    <li className="nav_item"> <a href="">디지털</a> </li>
-	    			<li className="nav_item"> <a href="">유아</a> </li>
+					<li className="nav_item"> 
+						<Link to="/">스킨케어</Link> 
+					</li>
+					<li className="nav_item"> 
+						<Link to="/">메이크업</Link> 
+					</li>						
+                    <li className="nav_item"> 
+						<Link to="/">향수</Link> 
+					</li>
+					<li className="nav_item"> 
+						<Link to="/">가방/지갑</Link> 
+					</li>
+					<li className="nav_item"> 
+						<Link to="">시계/주얼리</Link> 
+					</li>
+					<li className="nav_item"> 
+						<Link to="/">패션/잡화</Link> 
+					</li>
+					<li className="nav_item"> 
+						<Link to="">스포츠/레저</Link> 
+					</li>							
+                    <li className="nav_item"> 
+						<Link to="">디지털</Link> 
+					</li>
+	    			<li className="nav_item"> 
+						<Link to="">유아</Link> 
+					</li>
 				</ul>
 			</nav>
+			<hr/>
+			</div>
         )
     }
 }
